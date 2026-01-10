@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Randomizer</title>
+  
+   <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  <script defer src="https://friconix.com/cdn/friconix.js"></script>
+    <!-- The website JavaScript file -->
+    
+</head>
+<body id="body-ran">
+  
+  <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Maria's Middle School</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="students.html">Students</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="randomizer.html">Randomizer</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    
+    <center>
+    <div id="text">
+      <h1>Student-High-Low Game!</h1>
+      <p>Please enter a number between 1 and 20</p>
+
+      <!--Bootstrap Input Code-->
+      <div class="input-group input-group-lg" id="input">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-lg">Enter Your Number Here.</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" id="number">
+      </div>
+            
+      <br>
+      <button type="button" class="btn btn-danger" onclick="checkValue()">Guess</button>
+      <br>
+      <h2 id="result">Make a guess!</h2>
+    </div>
+      <h3 id= "guesses">
+        Previous Guesses:
+      </h3>
+      <div class = "guessArray"></div>
+  </center>
+    <!--   student images   -->
+    <header>
+    
+      <img class="number" id="number1" src="https://images.unsplash.com/photo-1629783509182-68c8c190e952?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+      <img class="number" id="number2" src="https://images.unsplash.com/photo-1554342321-0776d282ceac?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGtpZHxlbnwwfHwwfHx8MA%3D%3D" alt="">
+      <img class="number" id="number3" src="https://images.unsplash.com/photo-1552873816-636e43209957?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGtpZHxlbnwwfHwwfHx8MA%3D%3D" alt="">
+      <img class="number" id="number4" src="https://plus.unsplash.com/premium_photo-1715474788107-c3c4ac94ce18?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGtpZHxlbnwwfHwwfHx8MA%3D%3D" alt="">
+      <img class="number" id="number5" src="https://images.unsplash.com/photo-1596392927852-2a18c336fb78?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJveXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+      <img class="number" id="number6" src="https://images.unsplash.com/photo-1489673446964-e1f989187ddc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA1fHxraWR8ZW58MHx8MHx8fDA%3D" alt="">
+      <img class="number" id="number7" src="https://images.unsplash.com/photo-1587743368367-67ec3e7377f2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE5fHxraWR8ZW58MHx8MHx8fDA%3D" alt="">
+      <img class="number" id="number8" src="https://images.unsplash.com/photo-1602008969851-05d604b0a450?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjgzfHxraWR8ZW58MHx8MHx8fDA%3D" alt="">
+      <img class="number" id="number9" src="https://plus.unsplash.com/premium_photo-1673529434513-36961d98dd23?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDAwfHxraWR8ZW58MHx8MHx8fDA%3D" alt="">
+      <img class="number" id="number10" src="https://plus.unsplash.com/premium_photo-1664366737931-ce00a4054fb2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDA4fHxraWR8ZW58MHx8MHx8fDA%3D" alt="">
+      <img class="number" id="number11" src="https://images.unsplash.com/photo-1499214757999-dad4cbe50011?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDIzfHxraWR8ZW58MHx8MHx8fDA%3D" alt="">
+      <img class="number" id="number12" src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fGNoaWxkfGVufDB8fDB8fHww" alt="">
+      <img class="number" id="number13" src="https://images.unsplash.com/photo-1678557856807-7ae6ff6893d1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODJ8fGNoaWxkfGVufDB8fDB8fHww" alt="">
+      <img class="number" id="number14" src="https://plus.unsplash.com/premium_photo-1682089797802-d289812f6626?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTg4fHxjaGlsZHxlbnwwfHwwfHx8MA%3D%3D" alt="">
+      <img class="number" id="number15" src="https://images.unsplash.com/photo-1638109999883-971a3deafdfd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bGl0dGxlJTIwYm95fGVufDB8fDB8fHww" alt="">
+      <img class="number" id="number16" src="https://images.unsplash.com/photo-1597024681199-cc8a3415496a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGxpdHRsZSUyMGJveXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+      <img class="number" id="number17" src="https://images.unsplash.com/photo-1592137525871-b22238c8e547?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fGxpdHRsZSUyMGJveXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+      <img class="number" id="number18" src="https://images.unsplash.com/photo-1674733411647-74bff9f45d68?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHxsaXR0bGUlMjBnaXJsfGVufDB8fDB8fHww" alt="">
+      <img class="number" id="number19" src="https://images.unsplash.com/photo-1617350033070-f16e86872d78?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTU5fHxsaXR0bGUlMjBnaXJsfGVufDB8fDB8fHww" alt="">
+      <img class="number" id="number20" src="https://images.unsplash.com/photo-1502810217690-b2aa88e35100?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODh8fGJsYWNrJTIwYm95fGVufDB8fDB8fHww" alt="">
+    
+    </header>
+    
+    <a>
+    </a>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+
+  </body>
+  
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Contact Us</h2>
+            <ul>
+              <li>
+                <i class="fi-xnsuxl-map-marker-solid"></i> 345 Tech Plaza,
+                Innovation City, USA 40012
+              </li>
+              <li><i class="fi-xnsuxl-phone-solid"></i> 555-345-2298</li>
+              <li>
+                <i class="fi-xnsuxl-envelope-solid"></i> contact@nycmiddleschools.net
+              </li>
+              <li><i class="fi-xnluxl-globe"></i> www.mariamiddleschool.com</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h2>Quick Links</h2>
+            <ul> 
+              <li><a href="randomizer.html">Guess</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="students.html">Students</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h2>Stay Connected</h2>
+            <div class="social-links">
+              <a href="#"><i class="fi-xnsuxl-twitter"></i></a>
+              <a href="#"><i class="fi-snsuxl-facebook"></i></a>
+              <a href="https://www.instagram.com/" target="https://www.instagram.com"><i class="fi-snsuxl-instagram"></i></a>
+            </div>
+            <div class="subscribe">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email"
+              />
+              <button class="btn btn-secondary">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+</html>
+
