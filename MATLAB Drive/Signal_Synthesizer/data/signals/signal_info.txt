@@ -1,0 +1,10 @@
+% Signal Parameters:
+% Duration: 10 seconds
+% Sampling Rate: 100 Hz
+% Frequencies: 1 Hz, 5 Hz, 10 Hz
+% Signal Types: Sine wave, Square wave, Triangle wave
+%
+% Noise Levels:
+% Clean: No noise added
+% Low Noise: 0.1 amplitude (10% of signal)
+% High Noise: 0.5 amplitude (50% of signal)
