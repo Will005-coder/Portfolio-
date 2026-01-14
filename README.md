@@ -5,8 +5,8 @@ I'm William Dakare, an aspiring Intelligent Mechatronics Engineer passionate abo
 
 🔬 Projects Overview
 🧠 MATLAB Projects
-Signal Synthesizer and ECG Wave Analysis
-Two MATLAB-based projects for generating and analyzing bio-signals and synthesized waveforms.
+  - Signal Synthesizer and ECG Wave Analysis
+  - Two MATLAB-based projects for generating and analyzing bio-signals and synthesized waveforms.
 
 EK125 Project: Data Visualization using Matplotlib
 Created in Google Colab for visualizing datasets using Python’s Matplotlib library.
