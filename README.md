@@ -1,7 +1,7 @@
 # Will005-coder – Portfolio 🚀
 
 Welcome to my personal portfolio!  
-I'm **William Dakare**, an aspiring **Intelligent Mechatronics Engineer** passionate about **Arduino, MATLAB, and Python**. My goal is to merge hardware control, signal processing, and data visualization for smarter embedded systems development.
+I'm **William Dakare**, an aspiring **Intelligent Mechatronics Engineer** passionate about **Arduino, MATLAB, and Python**. My goal is to look develop on the automation procession for hardware control, signal processing, and data visualization for smarter embedded systems development.
 
 ---
 
