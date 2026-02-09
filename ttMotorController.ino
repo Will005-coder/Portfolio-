@@ -33,7 +33,7 @@ IMPROVEMENTS:
  - Fail-safe for uncontrollable motor state:
       A rotary encoder and PID should be implemented to prevent motor overload in the 
       prescence of inhibitory forces to the motor-shaft rotation.
-
+*/
 //@Motor pins
 //F indicates front wheels
 int FIN1 = 23; //Front-right wheel IN
@@ -77,14 +77,14 @@ void loop() {
   for (int i=0; i<BP32_MAX_CONTROLLERS; i++) { //BP32_MAX_CONTROLLERS is typically 4
     ControllerPtr ctl = myControllers[i]; //Appends possible controllers to a list
 
-    /*
+    
     Checks if a controller is:
     - In `myControllers` or callable;
     - A gamepad; 
     - And still connected to the Acebott ESP32
 
     Sets `ctl` (controller) as the target for input in function call 
-    */
+    
     if (ctl && ctl->isConnected() && ctl->isGamepad()) {
       processGamepad(ctl);
     }
