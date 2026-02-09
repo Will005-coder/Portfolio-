@@ -1,7 +1,7 @@
 # Will005-coder – Portfolio 🚀
 
 Welcome to my personal portfolio!  
-I'm **William Dakare**, an aspiring **Intelligent Mechatronics Engineer** passionate about **Arduino, MATLAB, and Python**. My goal is to look develop on the automation procession for hardware control, signal processing, and data visualization for smarter embedded systems development.
+I'm **William Dakare**, an aspiring **Intelligent Mechatronics Engineer** passionate about **Arduino, MATLAB, and Python**. My goal is to merge hardware control, signal processing, and data visualization for smarter embedded systems development.
 
 ---
 
@@ -21,9 +21,14 @@ I'm **William Dakare**, an aspiring **Intelligent Mechatronics Engineer** passio
 - **TT Motor Controller**  
   - Arduino sketch for controlling **TT DC motors** with precise speed regulation via PWM signals.
 
+### 🤖 Python / AI Projects
+- **AI Opponent with Modulated Difficulty**  
+  - Python project in **Google Colab** creating an AI opponent whose difficulty adapts based on the chosen AI decision function.  
+  - Features modulated behavior levels and strategy selection for a more dynamic and challenging gameplay experience.
+
 ### 🌐 Web Development
 - **Random Game Project**  
-  - A browser-based game built with **HTML, CSS, and JavaScript** as part of a final project with America on Tech.
+  - A browser-based game built with **HTML, CSS, and JavaScript** as part of a school project.
 
 ---
 
