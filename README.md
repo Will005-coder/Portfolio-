@@ -31,9 +31,9 @@ I'm **William Dakare**, an aspiring **Intelligent Mechatronics Engineer** passio
   - A browser-based game built with **HTML, CSS, and JavaScript** as part of a school project.
 
 -- While I work on my portfolio website, my Electronics portfoilio will live here
-### Electronics
+### ⚡Electronics
 - **Battery Monitoring System**
- - Contains a BMS schematic, in **Fusion 360 Electrical**,  for a **3s2p 18650 battery pack**, incorporating a thermistor for temperature monitoring and a voltage divider for supply voltage sensing.
+  - Contains a BMS schematic, in **Fusion 360 Electrical**,  for a **3s2p 18650 battery pack**, incorporating a thermistor for temperature monitoring and a voltage divider for supply voltage sensing.
 
 
 ---
