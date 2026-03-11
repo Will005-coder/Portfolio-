@@ -1,7 +1,7 @@
 # Will005-coder – Portfolio 🚀
 
 Welcome to my personal portfolio!  
-I'm **William Dakare**, an aspiring **Intelligent Mechatronics Engineer** passionate about **Arduino, MATLAB, Electronics and Python**. My goal is to merge hardware control, validated electronic systems, signal processing, and data visualization for smarter embedded systems development.
+I'm **William Dakare**, an aspiring **Intelligent Mechatronics Engineer** passionate about **Arduino, MATLAB, Electronics and Python**. My goal is to develop my  hardware fabrication, control, electronic systems validation, signal processing, and data visualization skills for smarter systems.
 
 ---
 
@@ -30,12 +30,21 @@ I'm **William Dakare**, an aspiring **Intelligent Mechatronics Engineer** passio
 - **Random Game Project**  
   - A browser-based game built with **HTML, CSS, and JavaScript** as part of a school project.
 
--- While I work on my portfolio website, my Electronics portfoilio will live here
+-- While I work on my portfolio website, my Electronics & CAD portfoilio will live here
+
 ### ⚡Electronics
 - **Battery Monitoring System**
-  - Contains a BMS schematic, in **Fusion 360 Electrical**,  for a **3s2p 18650 battery pack**, incorporating a thermistor for temperature monitoring and a voltage divider for supply voltage sensing.
+  - Contains a [BMS schematic](https://a360.co/4blK6tG), in **Fusion 360 Electrical**,  for a **3s2p 18650 battery pack**, incorporating a thermistor for temperature monitoring and a voltage divider for supply voltage sensing.
 
-
+## ⚙️CAD
+- **[Temperature sensing box](https://bu.onshape.com/documents/f643e361183325ea9c5a8dc7/w/8dc7aaa2bf7a2e67be58b920/e/e22336e900dded049414e990?renderMode=0&uiState=69b1f0e0772ad968b95187f6)**
+  - Designed Temperature sensing box in **OnShape**, and fabricated with Bambu Labs printer. Used Laser cutting tool for mounteing plate component.
+    - *Electronics to come soon.*
+      
+- **4-DOF, 3-gear robot arm for sorting**
+  - Designed [2-DOF sperical gear](https://a360.co/40te7Tf) component in **Fusion 360**, used FEA to simulate torque transfer points.
+    
+    
 ---
 
 ## 📜 License
