@@ -1,7 +1,7 @@
 # Will005-coder – Portfolio 🚀
 
 Welcome to my personal portfolio!  
-I'm **William Dakare**, an aspiring **Intelligent Mechatronics Engineer** passionate about **Arduino, MATLAB, Electronics and Python**. My goal is to develop my  hardware fabrication, control, electronic systems validation, signal processing, and data visualization skills for smarter systems.
+I'm **William Dakare**, an aspiring **Intelligent Mechatronics Engineer** passionate about **Manufacturing Process Improvement Arduino, MATLAB, Electronics and Python**. My goal is to develop my  hardware fabrication, control, electronic systems validation, signal processing, and data visualization skills for smarter systems.
 
 ---
 
@@ -43,6 +43,10 @@ I'm **William Dakare**, an aspiring **Intelligent Mechatronics Engineer** passio
       
 - **4-DOF, 3-gear robot arm for sorting** *In progress*
   - Designed [2-DOF sperical gear](https://a360.co/40te7Tf) component in **Fusion 360**, used FEA to simulate torque transfer points for optimizing durability.
+ 
+- **Soft Bronchoscope Assembly jig**
+  - Designed and fabricated an [assembly jig](https://drive.google.com/file/d/1fFJelqpVTlhTYnOrgL77BO0NsFq6zp5A/view?usp=sharing) to reduce actuator misalignment in the production process of my lab's soft robot, 3D prined with ABS.
+  
 
 ### [Smaller Projects](https://github.com/Will005-coder/Portfolio-/blob/main/Electronics/Small%20Electronics%20Projects.docx)
 
