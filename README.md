@@ -43,7 +43,7 @@ I'm **William Dakare**, an aspiring **Intelligent Mechatronics Engineer** passio
   - Designed Temperature sensing box in **OnShape**, and fabricated with Bambu Labs printer. Used Laser cutting tool for mounteing plate component.
     - *Electronics to come soon.*
       
-- **4-DOF, 3-gear robot arm for sorting** *In progress*
+- **4-DOF, 3-link robot arm for sorting** *In progress*
   - Designed [2-DOF sperical gear](https://a360.co/40te7Tf) component in **Fusion 360**, used FEA to simulate torque transfer points for optimizing durability.
  
 - **Soft Bronchoscope Assembly jig**
