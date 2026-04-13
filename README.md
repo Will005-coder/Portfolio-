@@ -33,8 +33,10 @@ I'm **William Dakare**, an aspiring **Intelligent Mechatronics Engineer** passio
 *-- While I work on my portfolio website, my Electronics & CAD portfoilio will live here --*
 
 ### ⚡Electronics
-- **Battery Monitoring System**
+- [**Battery Monitoring System**](https://github.com/Will005-coder/BMS)
   - Contains a [BMS schematic](https://a360.co/4blK6tG), in **Fusion 360 Electrical**,  for a **3s2p 18650 battery pack**, incorporating a thermistor for temperature monitoring and a voltage divider for supply voltage sensing.
+  - Design Review [Slides](https://1drv.ms/p/c/40cfd60c197fe7ba/IQDzVWm0hMHJQ5zdDT6k2I2SARCmv3J12kEwwGcmkWvL_HE?e=JPhN4l&nav=eyJzSWQiOjI3OCwiY0lkIjo4OTgyMjk2NTJ9)
+  - [Deployment Test plans](https://www.notion.so/BMS-Test-Plans-33fa90748dfe80cc9408f9e7ecaa5dbc?source=copy_link)
 
 ### ⚙️CAD
 - **[Temperature sensing box](https://bu.onshape.com/documents/f643e361183325ea9c5a8dc7/w/8dc7aaa2bf7a2e67be58b920/e/e22336e900dded049414e990?renderMode=0&uiState=69b1f0e0772ad968b95187f6)**
