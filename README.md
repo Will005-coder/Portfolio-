@@ -1,4 +1,5 @@
-# Will005-coder – Portfolio 🚀
+# [OUTDATED: currently building a new version]
+Will005-coder – Portfolio 🚀
 
 Welcome to my personal portfolio!  
 I'm **William Dakare**, an aspiring **Intelligent Mechatronics Engineer** passionate about **Manufacturing Process Improvement Arduino, MATLAB, Electronics and Python**. My goal is to develop my  hardware fabrication, control, electronic systems validation, signal processing, and data visualization skills for smarter systems.
